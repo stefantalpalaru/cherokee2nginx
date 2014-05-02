@@ -5,6 +5,12 @@ configuration files into the Nginx equivalents. Some manual editing of the
 resulting file will be required. The supported configuration keys are limited
 to what the author(s) needed. Contributions are welcomed.
 
+Before running the script you might want to upgrade the cherokee.conf file:
+```sh
+/usr/share/cherokee/admin/upgrade_config.py cherokee.conf
+```
+The script was tested with the config version 1002103.
+
 ##usage
 
 ```sh
