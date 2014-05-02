@@ -163,7 +163,7 @@ http {
     gzip on;
     gzip_min_length 1100;
     gzip_buffers 4 8k;
-    gzip_types text/plain;
+    gzip_types text/plain text/css application/x-javascript text/xml application/xml application/xml+rss text/javascript application/json text/csv;
 
     output_buffers 1 32k;
     postpone_output 1460;
