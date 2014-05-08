@@ -159,6 +159,7 @@ http {
     client_max_body_size 200m;
     fastcgi_buffers 256 16k;
     proxy_buffers 256 16k;
+    uwsgi_read_timeout 300;
 
     gzip on;
     gzip_min_length 1100;
