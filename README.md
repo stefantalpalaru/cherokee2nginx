@@ -3,7 +3,7 @@
 cherokee2nginx.py is script for the partial conversion of Cherokee
 configuration files into the Nginx equivalents. Some manual editing of the
 resulting file will be required. The supported configuration keys are limited
-to what the author(s) needed. Contributions are welcomed.
+to what the author(s) needed. Contributions are welcome.
 
 Before running the script you might want to upgrade the cherokee.conf file:
 ```sh
