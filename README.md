@@ -1,4 +1,4 @@
-##description
+## description
 
 cherokee2nginx.py is script for the partial conversion of Cherokee
 configuration files into the Nginx equivalents. Some manual editing of the
@@ -11,7 +11,7 @@ Before running the script you might want to upgrade the cherokee.conf file:
 ```
 The script was tested with the config version 1002103.
 
-##usage
+## usage
 
 ```sh
 $ ./cherokee2nginx.py --help
@@ -32,23 +32,23 @@ optional arguments:
   -v, --verbose         increase output verbosity (default: False)
 ```
 
-##requirements
+## requirements
 
 - Python 2
 - [Cherokee][1] (some Python modules from cherokee-admin are used to parse the configuration file)
 
-##further reading
+## further reading
 
 - [list of equivalent options/concepts][2] - a very useful blog post from april 2013 by David Beitey
 - [official Cherokee configuration file documentation][3]
 
-##license
+## license
 
 Mozilla Public License Version 2.0
 
-##credits
+## credits
 
-- author: Stefan Talpalaru <stefantalpalaru@yahoo.com>
+- author: Ștefan Talpalaru <stefantalpalaru@yahoo.com>
 
 - homepage: https://github.com/stefantalpalaru/cherokee2nginx
 
