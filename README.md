@@ -1,6 +1,6 @@
 ## description
 
-cherokee2nginx.py is script for the partial conversion of Cherokee
+cherokee2nginx.py is a script for the partial conversion of Cherokee
 configuration files into the Nginx equivalents. Some manual editing of the
 resulting file will be required. The supported configuration keys are limited
 to what the author(s) needed. Contributions are welcome.
@@ -39,7 +39,7 @@ optional arguments:
 
 ## further reading
 
-- [list of equivalent options/concepts][2] - a very useful blog post from april 2013 by David Beitey
+- [list of equivalent options/concepts][2] - a very useful blog post from April 2013 by David Beitey
 - [official Cherokee configuration file documentation][3]
 
 ## license
